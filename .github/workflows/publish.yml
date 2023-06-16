@@ -1,12 +1,13 @@
 name: Create and publish a Docker image
 
-push:
-  branches:
-    - "**"
+on: 
+  push:
+    branches:
+      - "**"
 
-pull_request:
-  branches:
-    - "develop"
+  pull_request:
+    branches:
+      - "develop"
 
 jobs:
   build-and-push-image:
