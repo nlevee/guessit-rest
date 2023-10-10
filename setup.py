@@ -11,7 +11,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 README = open(os.path.join(here, 'README.rst')).read()
 
 install_requires = ['Flask', 'flask-cors', 'guessit>=3.7.1',
-                    'flask-restful>=0.3.6', 'gunicorn==21.2.0']
+                    'flask-restful>=0.3.6', 'gunicorn==20.1.0']
 
 setup_requires = ['pytest-runner']
 
